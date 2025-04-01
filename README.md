@@ -77,4 +77,21 @@ client.on('messageCreate', message => {
     }
 });
 
+client.login(process.env.DISCORD_TOKEN);
+```
+
+## Troubleshooting
+- Ensure your bot token is correctly added to the `.env` file.
+- Check that the bot has the necessary permissions in your Discord server.
+- Verify that Node.js and npm are correctly installed.
+
+## Contributing
+Feel free to submit issues and pull requests for improvements!
+
+## License
+This project is open-source and available under the MIT License.
+
+
+
+
 cl
